@@ -1,11 +1,11 @@
 #include "doubledlinkedlistcircular.h"
 
-DoubledLinkedListCircular::DoubledLinkedListCircular()
+DoubledLinkedListCircularDataStructure::DoubledLinkedListCircularDataStructure()
 {
 
 }
 
-DoubledLinkedListCircular::~DoubledLinkedListCircular()
+DoubledLinkedListCircularDataStructure::~DoubledLinkedListCircularDataStructure()
 {
     DoubledLinkedCircularNode* initialHead = start;
     if (initialHead != nullptr)
@@ -21,7 +21,7 @@ DoubledLinkedListCircular::~DoubledLinkedListCircular()
     }
 }
 
-void DoubledLinkedListCircular::insertBeforeStart(const std::string& data)
+void DoubledLinkedListCircularDataStructure::insertBeforeStart(const std::string& data)
 {
     struct DoubledLinkedCircularNode* tmp = new DoubledLinkedCircularNode(data);
 
@@ -42,7 +42,7 @@ void DoubledLinkedListCircular::insertBeforeStart(const std::string& data)
     }
 }
 
-void DoubledLinkedListCircular::insertAfterStart(const std::string& data)
+void DoubledLinkedListCircularDataStructure::insertAfterStart(const std::string& data)
 {
     struct DoubledLinkedCircularNode* tmp = new DoubledLinkedCircularNode(data);
 
@@ -64,7 +64,7 @@ void DoubledLinkedListCircular::insertAfterStart(const std::string& data)
     }
 }
 
-DoubledLinkedCircularNode *DoubledLinkedListCircular::removeBeforeStart()
+DoubledLinkedCircularNode *DoubledLinkedListCircularDataStructure::removeBeforeStart()
 {
     if (start == nullptr)
         return nullptr;
@@ -89,7 +89,7 @@ DoubledLinkedCircularNode *DoubledLinkedListCircular::removeBeforeStart()
     }
 }
 
-DoubledLinkedCircularNode *DoubledLinkedListCircular::removeAfterStart()
+DoubledLinkedCircularNode *DoubledLinkedListCircularDataStructure::removeAfterStart()
 {
     if (start == nullptr)
         return nullptr;
@@ -114,7 +114,7 @@ DoubledLinkedCircularNode *DoubledLinkedListCircular::removeAfterStart()
     }
 }
 
-std::vector<std::string> DoubledLinkedListCircular::getElementsAsVector()
+std::vector<std::string> DoubledLinkedListCircularDataStructure::getElementsAsVector()
 {
     std::vector<std::string> vec;
 

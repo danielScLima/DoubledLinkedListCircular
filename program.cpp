@@ -6,7 +6,7 @@
 
 TEST_CASE( "Testing leak ocurrence", "[single-file]" )
 {
-	DoubledLinkedListCircular l;
+	DoubledLinkedListCircularDataStructure l;
 
 	l.insertAfterStart("a");
 	l.insertAfterStart("b");
@@ -15,7 +15,7 @@ TEST_CASE( "Testing leak ocurrence", "[single-file]" )
 
 TEST_CASE( "Testing the insert and remove in the head", "[single-file]" )
 {
-	DoubledLinkedListCircular l;
+	DoubledLinkedListCircularDataStructure l;
 	DoubledLinkedCircularNode* node = nullptr;
 
 	l.insertAfterStart("a");
@@ -37,7 +37,7 @@ TEST_CASE( "Testing the insert and remove in the head", "[single-file]" )
 
 TEST_CASE( "Testing the insert in head and remove in the tail", "[single-file]" )
 {
-	DoubledLinkedListCircular l;
+	DoubledLinkedListCircularDataStructure l;
 	DoubledLinkedCircularNode* node = nullptr;
 
 	l.insertAfterStart("a");
@@ -59,7 +59,7 @@ TEST_CASE( "Testing the insert in head and remove in the tail", "[single-file]" 
 
 TEST_CASE( "Testing the insert in tail and remove in the head", "[single-file]" )
 {
-	DoubledLinkedListCircular l;
+	DoubledLinkedListCircularDataStructure l;
 	DoubledLinkedCircularNode* node = nullptr;
 
 	l.insertBeforeStart("a");//a
@@ -81,7 +81,7 @@ TEST_CASE( "Testing the insert in tail and remove in the head", "[single-file]" 
 
 TEST_CASE( "Testing the insert in tail and remove in the tail", "[single-file]" )
 {
-	DoubledLinkedListCircular l;
+	DoubledLinkedListCircularDataStructure l;
 	DoubledLinkedCircularNode* node = nullptr;
 
 	l.insertBeforeStart("a");

@@ -37,15 +37,15 @@ struct DoubledLinkedCircularNode
 /*!
  * \brief The DoubledLinkedListCircular class
  */
-class DoubledLinkedListCircular
+class DoubledLinkedListCircularDataStructure
 {
 public:
     /*!
-     * \brief DoubledLinkedListCircular
+     * \brief DoubledLinkedListCircularDataStructure
      */
-    DoubledLinkedListCircular();
+    DoubledLinkedListCircularDataStructure();
     
-    ~DoubledLinkedListCircular();
+    ~DoubledLinkedListCircularDataStructure();
 
     /*!
      * \brief insertBeforeStart
