@@ -1,5 +1,6 @@
 Doubled Linked List Circular
 ====================
+Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/DoubledLinkedListCircular.svg?branch=master)](https://www.travis-ci.com/danielScLima/DoubledLinkedListCircular)
 
 This repository has a project with the implementation of a Doubled Linked List Circular.
 
