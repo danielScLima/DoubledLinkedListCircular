@@ -1,5 +1,7 @@
 Doubled Linked List Circular
 ====================
+Building with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/w84paok27r65w4bw?svg=true)](https://ci.appveyor.com/project/DanielSLima/doubledlinkedlistcircular)
+
 Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/DoubledLinkedListCircular.svg?branch=master)](https://www.travis-ci.com/danielScLima/DoubledLinkedListCircular)
 
 This repository has a project with the implementation of a Doubled Linked List Circular.
